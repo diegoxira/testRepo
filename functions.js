@@ -1,5 +1,6 @@
 function fn(){
-    console.log('hello from the fn function')
+    let r = Math.random()
+    console.log('hello from the fn function', r)
 }
 
 module.exports = {
